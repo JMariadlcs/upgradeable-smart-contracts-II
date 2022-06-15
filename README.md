@@ -9,6 +9,20 @@ The repo that we are going to implement is like [this one](https://www.youtube.c
 -   [Proxies by Openzeppeling](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/proxy) are going to be used.
 -   [Delegate by call example](https://solidity-by-example.org/delegatecall).
 
+## PROJECT
+
+We are doing:
+
+1. Upgrade Box -> BoxV2
+2. Proxy Box
+   ->BoxV2
+
+To do so there are different ways:
+
+1. Deploy a Proxy manually (done in contracts/sublesson).
+2. Deploy a Proxy using Hardhat built-in proxies (implemented here)✅.
+3. Deploy a Proxy using Openzeppelin upgrades plugin(done in scripts).
+
 ## CREATE SIMILAR PROJECT FROM SCRATCH
 
 -   Install yarn and start hardhat project:

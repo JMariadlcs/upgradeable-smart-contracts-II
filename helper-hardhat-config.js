@@ -29,15 +29,13 @@ const networkConfig = {
 
 const DECIMALS = "18"
 const INITIAL_PRICE = "200000000000000000000"
-const frontEndContractsFile = "../nft-marketplace-frontend-moralis/constants/networkMapping.json"
-const frontEndAbiFile = "../nft-marketplace-frontend-moralis/constants/"
 const developmentChains = ["hardhat", "localhost"]
+const VERIFICATION_BLOCK_CONFIRMATIONS = 6
 
 module.exports = {
     networkConfig,
     developmentChains,
     DECIMALS,
     INITIAL_PRICE,
-    frontEndContractsFile,
-    frontEndAbiFile,
+    VERIFICATION_BLOCK_CONFIRMATIONS
 }
